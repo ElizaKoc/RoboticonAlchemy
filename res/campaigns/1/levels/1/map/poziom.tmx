@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="23" height="17" tilewidth="64" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="3">
+ <tileset firstgid="1" source="tiles/Pattern1.tsx"/>
+ <tileset firstgid="91" source="tiles/Other.tsx"/>
+ <tileset firstgid="199" source="tiles/Pack3.tsx"/>
+ <layer id="1" name="Floor" width="23" height="17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAEChNhYGAQBWIRGtEuQHPRMTH2lQH1nQRiEI2OYfrRzQXxifEHyLxEII7HQsP0YzMbZi+xNLr5MH3YzIbZSwoNMx/kH1z6QHbB7CWVBpmPy9xRcfLDldR4GFU/mg4HIr8BAEEoXQYcBgAA
+  </data>
+ </layer>
+ <layer id="2" name="Collide" width="23" height="17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAECrWTywnDQAxE95IqcksJIeW5P0OqiubwYCKErA1EIEYrjZ6NP8da6/hjvoKdU9d7N6l5F9xv5ZnsVnvqnZG77JvB2EVt9MX254En37e4JB604tPLqh1nw3xGnxouCkNnamfgc4UlLknPfbmGn/ucYcB0ZYY3K2y91xzsOu8eJj/jybv+nVRs+dl1HjWzzNV5wpYPBkwpPc2rmLK1C2vClX+H7Xxd5yp22eJNuPL9wtbeJJz9iAX/76kzh/6Visf33an43bybfQDR65DWHAYAAA==
+  </data>
+ </layer>
+ <objectgroup id="3" name="Obiekty" width="23" height="17">
+  <object id="2" name="Gracz" type="Robot" gid="1" x="192" y="192" width="23" height="17">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

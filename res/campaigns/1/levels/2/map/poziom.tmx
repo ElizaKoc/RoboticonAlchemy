@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="23" height="17" tilewidth="64" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="16">
+ <tileset firstgid="1" source="tiles/Other.tsx"/>
+ <tileset firstgid="109" source="tiles/Pattern1.tsx"/>
+ <tileset firstgid="199" source="tiles/Crate.tsx"/>
+ <tileset firstgid="200" source="tiles/necklace2.tsx"/>
+ <layer id="4" name="floor" width="23" height="17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAECuNgYGDgGMWjYTCaBhhOjIbBaD4YTQPwNAAAao2m9RwGAAA=
+  </data>
+ </layer>
+ <layer id="5" name="Kolizja" width="23" height="17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAECrWS0Q3DIBBD2aBSR8j+e2St8po8YZ2A/LQnUR+2z5CkR2vt+ON692wWZ4BnX5a8+x0678zqzmSkVvdoFDm1Mrtqu/3Teal7PnnZm1+91ZN7et4nyzlyZr0cz+iCo9TcX+z4TZ3ed7fye5+RMDqzZNzXdy+PL89Z8ZlH7x2cBV+aOiZvj2wPuuAp9vnu9H7FW7cHnU+UXz3vzmv2zKMmmp/nyTEvn1n2+Cw50P+aOXiS1+tsRXW+g31+JzmQqt8rdT3iNbH+zTvjyjlz87n17O7nXKJzIKVmNnkUvNloLnU8s2JOr9m/QM6qOR/xKOkMHAYAAA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Obiekty" width="23" height="17">
+  <object id="15" name="Gracz" type="Robot" gid="1" x="1152" y="960" width="23" height="17">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
